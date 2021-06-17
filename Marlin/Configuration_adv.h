@@ -1334,7 +1334,7 @@
 
   //#define BROWSE_MEDIA_ON_INSERT          // Open the file browser when media is inserted
 
- //#define MEDIA_MENU_AT_TOP               // Force the media menu to be listed on the top of the main menu
+  //#define MEDIA_MENU_AT_TOP               // Force the media menu to be listed on the top of the main menu
 
   #define EVENT_GCODE_SD_ABORT "G28XY"      // G-code to run on SD Abort Print (e.g., "G28XY" or "G27")
 
@@ -2722,7 +2722,7 @@
   //#define X2_CS_PIN         -1
   //#define Y2_CS_PIN         -1
   //#define Z2_CS_PIN         -1
- //#define Z3_CS_PIN         -1
+  //#define Z3_CS_PIN         -1
   //#define Z4_CS_PIN         -1
   //#define I_CS_PIN          -1
   //#define J_CS_PIN          -1
