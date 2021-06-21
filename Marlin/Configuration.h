@@ -149,7 +149,7 @@
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-//#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
+#define MACHINE_UUID "5e1ba589-242e-4be0-bc1a-eccbdc09a917"
 
 /**
  * Define the number of coordinated linear axes.
