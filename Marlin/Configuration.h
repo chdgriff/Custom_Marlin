@@ -1649,7 +1649,9 @@
 #define LEVEL_BED_CORNERS
 
 #if ENABLED(LEVEL_BED_CORNERS)
-  #define LEVEL_CORNERS_INSET_LFRB { 30, 30, 30, 30 } // (mm) Left, Front, Right, Back insets
+//corners math = NOZZLE_TO_PROBE_OFFSET[0]*2, 30+NOZZLE_TO_PROBE_OFFSET[1], 0, 30+Y_MIN_POS-NOZZLE_TO_PROBE_OFFSET[1]
+// { -38.6, 3.3, -2.07 }
+  #define LEVEL_CORNERS_INSET_LFRB { 38.6*2, 30-3.3, 38.6, 30+Y_MIN_POS+3.3} // (mm) Left, Front, Right, Back insets
   #define LEVEL_CORNERS_HEIGHT      0.0   // (mm) Z height of nozzle at leveling points
   #define LEVEL_CORNERS_Z_HOP       4.0   // (mm) Z height of nozzle between leveling points
   //#define LEVEL_CENTER_TOO              // Move to the center after the last corner
