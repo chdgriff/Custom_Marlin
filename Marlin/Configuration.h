@@ -2646,7 +2646,7 @@
 //
 // Generic TFT with detailed options
 //
-//#define TFT_GENERIC
+#define TFT_GENERIC
 #if ENABLED(TFT_GENERIC)
   // :[ 'AUTO', 'ST7735', 'ST7789', 'ST7796', 'R61505', 'ILI9328', 'ILI9341', 'ILI9488' ]
   #define TFT_DRIVER AUTO
@@ -2672,7 +2672,7 @@
  *   root of your SD card, together with the compiled firmware.
  */
 //#define TFT_CLASSIC_UI
-//#define TFT_COLOR_UI
+#define TFT_COLOR_UI
 //#define TFT_LVGL_UI
 
 #if ENABLED(TFT_LVGL_UI)
@@ -2696,7 +2696,7 @@
 //
 // Ender-3 v2 OEM display. A DWIN display with Rotary Encoder.
 //
-#define DWIN_CREALITY_LCD
+//#define DWIN_CREALITY_LCD
 
 //
 // Touch Screen Settings
