@@ -1841,15 +1841,15 @@
 #define PREHEAT_3_TEMP_BED     60
 #define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
 
-#define PREHEAT_4_LABEL       "Filament 5"
+#define PREHEAT_4_LABEL       "Filament 4"
 #define PREHEAT_4_TEMP_HOTEND 200
 #define PREHEAT_4_TEMP_BED     60
 #define PREHEAT_4_FAN_SPEED     0 // Value from 0 to 255
 
-#define PREHEAT_4_LABEL       "Filament 5"
-#define PREHEAT_4_TEMP_HOTEND 200
-#define PREHEAT_4_TEMP_BED     60
-#define PREHEAT_4_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_5_LABEL       "Filament 5"
+#define PREHEAT_5_TEMP_HOTEND 200
+#define PREHEAT_5_TEMP_BED     60
+#define PREHEAT_5_FAN_SPEED     0 // Value from 0 to 255
 
 /**
  * Nozzle Park
