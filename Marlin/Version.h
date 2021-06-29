@@ -28,28 +28,20 @@
 /**
  * Marlin release version identifier
  */
-<<<<<<< HEAD
-#define SHORT_BUILD_VERSION "2.0.9"
-=======
-//#define SHORT_BUILD_VERSION "2.0.9.1"
->>>>>>> 2.0.x
+#define SHORT_BUILD_VERSION "2.0.9.1"
 
 /**
  * Verbose version identifier which should contain a reference to the location
  * from where the binary was downloaded or the source code was compiled.
  */
-#define DETAILED_BUILD_VERSION "SKR Ender 3 RRF V2"
+#define DETAILED_BUILD_VERSION "SKR E3 RRF v1.1 Ender 3 V2"
 
 /**
  * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-<<<<<<< HEAD
-#define STRING_DISTRIBUTION_DATE "2021-06-24"
-=======
-//#define STRING_DISTRIBUTION_DATE "2021-06-27"
->>>>>>> 2.0.x
+#define STRING_DISTRIBUTION_DATE "2021-06-29"
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
